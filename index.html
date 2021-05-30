@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Technical Documentation Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav id="navbar">
+      <header>Kali Linux Tools Documentation</header>
+      <hr />
+      <a class="nav-link" href="#Best_Kali_Linux_tools">
+        Best Kali Linux tools
+      </a>
+      <hr />
+      <a class="nav-link" href="#Nmap">Nmap</a>
+      <hr />
+      <a class="nav-link" href="#Armitage">Armitage</a>
+      <hr />
+      <a class="nav-link" href="#Wireshark">Wireshark</a>
+      <hr />
+      <a class="nav-link" href="#TheFatRat">TheFatRat</a>
+      <hr />
+    </nav>
+
+    <main id="main-doc">
+      <section class="main-section" id="Best_Kali_Linux_tools">
+        <header>Best Kali Linux tools</header>
+        <p>
+          Kali Linux contains a large amount of penetration testing tools from
+          various different niches of the security and forensics fields. This
+          site aims to list them all and provide a quick reference to these
+          tools.
+        </p>
+        <p>
+          The Kali Linux penetration testing platform contains a vast array of
+          tools and utilities, from information gathering to final reporting,
+          that enable security and IT professionals to assess the security of
+          their systems.
+        </p>
+        <p>
+          For generally purposes of using Kali Linux, you need to use a Terminal
+          and introduce a Terminal command that looks like this:
+          <code>nmap -A -T4 ipaddress</code>
+        </p>
+      </section>
+
+      <section class="main-section" id="Nmap">
+        <header>Nmap</header>
+        <p>
+          Nmap (“Network Mapper”) is a free and open source (license) utility
+          for network discovery and security auditing. Many systems and network
+          administrators also find it useful for tasks such as network
+          inventory, managing service upgrade schedules, and monitoring host or
+          service uptime.
+        </p>
+        <p>
+          Nmap uses raw IP packets in novel ways to determine what hosts are
+          available on the network, what services (application name and version)
+          those hosts are offering, what operating systems (and OS versions)
+          they are running, what type of packet filters/firewalls are in use,
+          and dozens of other characteristics.
+          <em
+            >It was designed to rapidly scan large networks, but works fine
+            against single hosts.</em
+          >
+        </p>
+        <p>Features of Nmap:</p>
+        <ul>
+          <li>
+            <b>Flexible:</b> Supports dozens of advanced techniques for mapping
+            out networks filled with IP filters, firewalls, routers, and other
+            obstacles.
+          </li>
+
+          <li>
+            <b>Powerful:</b> Nmap has been used to scan huge networks of
+            literally hundreds of thousands of machines.
+          </li>
+
+          <li>
+            <b>Easy:</b> While Nmap offers a rich set of advanced features for
+            power users, you can start out as simply as
+            <code>“nmap -v -A targethost”</code>. Both traditional command line
+            and graphical (GUI) versions are available to suit your preference.
+            Binaries are available for those who do not wish to compile Nmap
+            from source.
+          </li>
+
+          <li>
+            <b>Free:</b> The primary goals of the Nmap Project is to help make
+            the Internet a little more secure and to provide
+            administrators/auditors/hackers with an advanced tool for exploring
+            their networks. For this, Nmap is available for free download.
+          </li>
+
+          <li>
+            <b>Popular:</b> The most famous and important tool in Kali Linux
+            tools and cybersecurity tools. If you want to work in CyberSecurity
+            you cannot not have this tool in your set.
+          </li>
+        </ul>
+        <p>
+          The use of Nmap consists like mentioned above:<code
+            >nmap -v -A targethost</code
+          >
+        </p>
+      </section>
+
+      <section class="main-section" id="Armitage">
+        <header>Armitage</header>
+        <p>
+          Armitage is a scriptable red team collaboration tool for Metasploit
+          that visualizes targets, recommends exploits, and exposes the advanced
+          post-exploitation features in the framework.
+        </p>
+
+        <p>Through one Metasploit instance, your team will:</p>
+
+        <ul>
+          <li>Use the same sessions</li>
+          <li>Share hosts, captured data, and downloaded files</li>
+          <li>Communicate through a shared event log.</li>
+          <li>Run bots to automate red team tasks.</li>
+        </ul>
+
+        <p>
+          To connect to a team server, you must provide:
+          <code>teamserver [external IP address] [team password]</code>
+        </p>
+      </section>
+
+      <section class="main-section" id="Wireshark">
+        <header>Wireshark</header>
+        <p>
+          Wireshark is the world’s foremost network protocol analyzer. It lets
+          you see what’s happening on your network at a microscopic level.
+        </p>
+        <p>Wireshark has a rich feature set which includes the following:</p>
+        <ul>
+          <li>Live capture and offline analysis</li>
+          <li>Standard three-pane packet browser</li>
+          <li>
+            Deep inspection of hundreds of protocols, with more being added all
+            the time
+          </li>
+          <li>
+            Multi-platform: Runs on Windows, Linux, OS X, Solaris, FreeBSD,
+            NetBSD, and many others
+          </li>
+          <li>
+            Captured network data can be browsed via a GUI, or via the TTY-mode
+            TShark utility
+          </li>
+          <li>The most powerful display filters in the industry</li>
+          <li>Rich VoIP analysis</li>
+          <li>
+            Live data can be read from Ethernet, IEEE 802.11, PPP/HDLC, ATM,
+            Bluetooth, USB, Token Ring, Frame Relay, FDDI, and others (depending
+            on your platform)
+          </li>
+        </ul>
+        <p>
+          Wireshark is one example of the type of tool that don't need to be
+          runned in the terminal, has a interactive GUI that you can open just
+          typing the command <code>wireshark</code> in your terminal, but
+          otherwise you can put some options in the command with:<code
+            >wireshark [options] ... [ infile ]</code
+          >
+        </p>
+      </section>
+
+      <section class="main-section" id="TheFatRat">
+        <header>TheFatRat</header>
+        <p>
+          TheFatRat is an exploiting tool which compiles a malware with famous
+          payload, and then the compiled maware can be executed on Linux ,
+          Windows , Mac and Android. TheFatRat Provides An Easy way to create
+          Backdoors and Payload which can bypass most anti-virus.
+        </p>
+        <p>
+          In this case, this tool is not installed with the Kali Linux OS, but
+          you can access to this tool on the author GitHub repository and
+          install in your Linux OS.
+        </p>
+        <p>The features of this tool includes:</p>
+        <ul>
+          <li>Fully Automating MSFvenom & Metasploit.</li>
+          <li>Local or remote listener Generation.</li>
+          <li>Easily Make Backdoor by category Operating System.</li>
+          <li>Generate payloads in Various formats.</li>
+          <li>Bypass anti-virus backdoors.</li>
+          <li>
+            File pumper that you can use for increasing the size of your files.
+          </li>
+          <li>The ability to detect external IP & Interface address.</li>
+          <li>
+            Automatically creates AutoRun files for USB / CDROM exploitation
+          </li>
+        </ul>
+        <p>
+          For installing this tool in your Linux OS open a terminal, then put
+          this commands:
+        </p>
+        <code>git clone https://github.com/Screetsec/TheFatRat.git</code>
+        <br />
+        <code>cd TheFatRat</code>
+        <br />
+        <code>chmod +x setup.sh && ./setup.sh</code>
+      </section>
+    </main>
+  </body>
+</html>

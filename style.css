@@ -1,0 +1,62 @@
+#navbar header {
+  text-align: center;
+  margin-top: 10px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+#navbar a {
+  display: block;
+  padding: 10px 30px;
+  text-decoration: none;
+  opacity: 0.9;
+  color: blue;
+}
+
+main {
+  position: absolute;
+  padding: 5px;
+  margin: 0 0 100px 300px;
+}
+
+#Nmap,
+#Armitage,
+#Wireshark,
+#TheFatRat {
+  margin-top: 40px;
+}
+
+header {
+  font-size: 25px;
+  letter-spacing: 0.3px;
+}
+
+code {
+  display: block;
+  position: relative;
+  line-height: 1.5;
+  background-color: #f7f7f7;
+  padding: 13px;
+  margin: 3px;
+  border-radius: 5px;
+}
+
+@media only screen and (min-width: 700px) {
+  #navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: lightgray;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  main {
+    margin: 0;
+  }
+}
